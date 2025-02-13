@@ -1,4 +1,4 @@
-import Yesno from "./assets/components/yesno";
+import Yesno from "./assets/components/Yesno";
 
 function App() {
   return (
