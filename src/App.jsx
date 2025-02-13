@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Yesno from "./assets/components/yesno";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className='text-2xl'> meow</div>
-  )
+    <div className='bg-emerald-300 font-pixel text-4xl h-screen flex flex-col items-center justify-center relative'>
+      {/* Main Text */}
+      <div className='text-center pb-4'>
+        Will yuo be the ts to my pmo?
+      </div>
+
+      {/* Yes/No Buttons */}
+      <Yesno />
+    
+
+
+    </div>
+  );
 }
 
-export default App
+export default App;
