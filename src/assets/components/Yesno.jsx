@@ -45,7 +45,7 @@ const Yesno = () => {
       {showImage && (
         <div className="fixed inset-0 flex items-center justify-center pointer-events-none">
           <img
-            src="/src/assets/sidecat.JPG"
+            src="/sidecat.JPG"
             alt="celebration"
             className="transition-transform duration-500"
             style={{
@@ -60,7 +60,7 @@ const Yesno = () => {
       {!showImage && (
         <div className="flex space-x-4">
           <div
-            className="bg-emerald-700 text-white px-4 py-2 rounded-lg hover:bg-emerald-800 transition-all duration-200 cursor-pointer font-pixel"
+            className="bg-emerald-700 text-emerald-100 px-4 py-2 rounded-lg hover:bg-emerald-800 transition-all duration-200 cursor-pointer font-pixel"
             style={{
               transform: `scale(${yesScale})`,
               width: `${yesScale * 100}%`,
@@ -71,7 +71,7 @@ const Yesno = () => {
           </div>
 
           <div
-            className="bg-red-700 text-white px-4 py-2 rounded-lg hover:bg-red-800 transition-colors duration-200 cursor-pointer font-pixel"
+            className="bg-red-700 text-red-100 px-4 py-2 rounded-lg hover:bg-red-800 transition-colors duration-200 cursor-pointer font-pixel"
             onClick={handleNoClick}
           >
             no
